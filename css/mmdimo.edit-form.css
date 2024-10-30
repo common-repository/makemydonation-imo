@@ -1,0 +1,95 @@
+.mmdimo-field-family-emails p {
+  margin-bottom: 0;
+}
+.mmdimo-field-family-emails .selectize-control.multi .selectize-input [data-value] {
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  border-color: transparent;
+  box-shadow: none;
+}
+.mmdimo-field-family-emails .selectize-control.multi .selectize-input [data-value]:hover,
+.mmdimo-field-family-emails .selectize-control.multi .selectize-input .active[data-value],
+.mmdimo-field-family-emails .selectize-control.multi .selectize-input .active[data-value]:hover {
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-color: transparent;
+  box-shadow: none;
+}
+#mmdimo-charity-active {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: inherit;
+  display: block;
+  margin-top: 0;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+#mmdimo-charity-active.mmdimo-empty {
+  display: none;
+}
+#mmdimo-charity-active li {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+#mmdimo-charity-active li:first-child {
+  border-width: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+#mmdimo-charity-select label {
+  display: block;
+  margin: 0 0 0.5em;
+}
+#mmdimo-charity-single-select {
+  padding: 1px 0;
+}
+.mmdimo-charity-clear {
+  color: inherit;
+  cursor: pointer;
+  height: 20px;
+  overflow: hidden;
+  text-indent: 100%;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 20px;
+}
+#mmdimo-charity-active li:first-child .mmdimo-charity-clear {
+  top: -5px;
+}
+.mmdimo-charity-clear::before {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  content: "\00d7";
+  font-size: 1.2em;
+  font-weight: bold;
+  left: 0;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  width: 18px;
+  z-index: 1000;
+}
+.mmdimo-charity-clear:hover::before {
+  background-color: #efefef;
+  border-style: solid;
+}
+#mmdimo-charity-state {
+  clear: left;
+  margin-right: 10px;
+}
+.mmdimo-field-charity br {
+  clear: both;
+}
